@@ -1,0 +1,57 @@
+## URXVT ##
+## URxvt.letterSpace:		-1 ##
+URxvt.font:			xft:M+ 1m:slant=0:weight=50:pixelsize=14:antialias=True:autohint=True:minspace=True,xft:Bitstream Vera Sans Mono:slant=0:weight=100:pixelsize=13:antialias=True:autohint=True:minspace=True
+URxvt.boldFont:			xft:M+ 1m:slant=0:weight=50:pixelsize=14:antialias=True:autohint=True:minspace=True,xft:Bitstream Vera Sans Mono:slant=0:weight=100:pixelsize=13:antialias=True:autohint=True:minspace=True
+URxvt.internalBorder: 8
+URxvt.scrollBar: False
+URxvt.background: 		#cacaca
+URxvt.foreground: 		#29282a
+URxvt.color0:			#493f3f
+URxvt.color1:			#5a554f
+URxvt.color2:			#707066
+URxvt.color3:			#747b73
+URxvt.color4:			#6a6a7c
+URxvt.color5:			#a68eac
+URxvt.color6:			#525252
+URxvt.color7:			#7d6a83
+## BOLDS ##
+URxvt.color8:			#606a5e
+URxvt.color9:			#74687e
+URxvt.color10:			#88889a
+URxvt.color11:			#ab96aa
+URxvt.color12:			#a4a387
+URxvt.color13:			#8e968e
+URxvt.color14:			#ffffff
+URxvt.color15:			#8c968b
+
+## XTERM ##
+
+XTerm*allowBoldFonts:	false
+XTerm*locale:		true
+## XTerm*faceName: Source Sans Pro:size=12 ##
+XTerm*background: 		#cacaca
+XTerm*foreground: 		#29282a
+XTerm*color0:			#493f3f
+XTerm*color1:			#5a554f
+XTerm*color2:			#707066
+XTerm*color3:			#747b73
+XTerm*color4:			#6a6a7c
+XTerm*color5:			#a68eac
+XTerm*color6:			#525252
+XTerm*color7:			#7d6a83
+## BOLDS ##
+XTerm*color8:			#606a5e
+XTerm*color9:			#74687e
+XTerm*color10:			#88889a
+XTerm*color11:			#ab96aa
+XTerm*color12:			#a4a387
+XTerm*color13:			#8e968e
+XTerm*color14:			#ffffff
+XTerm*color15:			#8c968b
+
+XTerm*BorderWidth:		0
+XTerm*internalBorder:		12
+XTerm*selectToClipboard:	true
+*inputMethod:		ibus
+Xcursor.theme: whiteglass
+

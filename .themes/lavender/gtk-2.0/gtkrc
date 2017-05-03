@@ -1,0 +1,73 @@
+style "default"
+{
+        fg[NORMAL]              = "#29282a"
+        fg[ACTIVE]              = "#29282a"
+        fg[INSENSITIVE]         = "#ffffff"
+        fg[PRELIGHT]            = "#6a6a7c"
+        fg[SELECTED]            = "#7d6a83"
+       
+        bg[ACTIVE]              = "#cacaca"
+    bg[NORMAL]              = "#cacaca"
+        bg[INSENSITIVE]         = "#cacaca"
+        bg[PRELIGHT]            = "#cacaca"
+        bg[SELECTED]            = "#cacaca"
+ 
+        base[NORMAL]            = "#cacaca"
+        base[ACTIVE]            = "#cacaca"
+        base[INSENSITIVE]       = "#cacaca"
+        base[PRELIGHT]          = "#cacaca"
+    base[SELECTED]          = "#cacaca"
+       
+        text[NORMAL]            = "#29282a"
+        text[ACTIVE]            = "#29282a"
+        text[PRELIGHT]          = "#ffffff"
+        text[SELECTED]          = "#747b73"
+        text[INSENSITIVE]       = "#ffffff"
+ 
+    GtkRange::trough_border = 0
+    GtkRange::slider_width = 15
+    GtkRange::stepper_size = 15
+ 
+    GtkScrollbar::min_slider_length = 15
+    GtkCheckButton::indicator_size=10
+    GtkCheckMenuItem::indicator_size=10
+    GtkRadioButton::indicator_size=12
+#   GtkStatusbar::shadow_type =
+   
+    GtkNotebook::tab_vborder = 0
+    GtkNotebook::tab_hborder = 0
+    xthickness = 1
+    ythickness = 1
+ 
+    NautilusIconContainer::dark_info_color="#60646b"
+    NautilusIconContainer::light_info_color="#dddbd6"
+    NautilusIconContainer::highlight_alpha=200
+ 
+    engine "mist"
+    {
+    }
+}
+ 
+style "menuitem"
+{
+    ythickness = 2
+    xthickness = 2
+        text[PRELIGHT]          = "#dddbd6"
+        fg[PRELIGHT]          = "#dddbd6"
+}
+ 
+style "menu"
+{
+    ythickness = 2
+    xthickness = 2
+}
+ 
+class "GtkWidget" style "default"
+class "GtkMenu" style "menu"
+ 
+widget_class "*.GtkMenuItem.*" style "menuitem"
+widget_class "*.GtkImageMenuItem.*" style "menuitem"
+widget_class "*.GtkAccelMenuItem.*" style "menuitem"
+widget_class "*.GtkRadioMenuItem.*" style "menuitem"
+widget_class "*.GtkCheckMenuItem.*" style "menuitem"
+widget_class "*.GtkMenu.*" style "menuitem"
